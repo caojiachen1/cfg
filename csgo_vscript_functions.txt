@@ -1,0 +1,599 @@
+Function:    CBaseAnimating::GetAttachmentAngles
+Signature:   Vector CBaseAnimating::GetAttachmentAngles(int)
+Description: Get the attachement id's angles as a p,y,r vector
+
+Function:    CBaseAnimating::GetAttachmentOrigin
+Signature:   Vector CBaseAnimating::GetAttachmentOrigin(int)
+Description: Get the attachement id's origin vector
+
+Function:    CBaseAnimating::IsSequenceFinished
+Signature:   bool CBaseAnimating::IsSequenceFinished()
+Description: Ask whether the main sequence is done playing
+
+Function:    CBaseAnimating::LookupAttachment
+Signature:   int CBaseAnimating::LookupAttachment(string)
+Description: Get the named attachement id
+
+Function:    CBaseAnimating::SetBodygroup
+Signature:   void CBaseAnimating::SetBodygroup(int, int)
+Description: Sets a bodygroup
+
+Function:    CBaseEntity::ConnectOutput
+Signature:   void CBaseEntity::ConnectOutput(string, string)
+Description: Adds an I/O connection that will call the named function when the specified output fires
+
+Function:    CBaseEntity::Destroy
+Signature:   void CBaseEntity::Destroy()
+
+Function:    CBaseEntity::DisconnectOutput
+Signature:   void CBaseEntity::DisconnectOutput(string, string)
+Description: Removes a connected script function from an I/O event.
+
+Function:    CBaseEntity::EmitSound
+Signature:   void CBaseEntity::EmitSound(string)
+Description: Plays a sound from this entity.
+
+Function:    CBaseEntity::EyePosition
+Signature:   Vector CBaseEntity::EyePosition()
+Description: Get vector to eye position - absolute coords
+
+Function:    CBaseEntity::FirstMoveChild
+Signature:   handle CBaseEntity::FirstMoveChild()
+
+Function:    CBaseEntity::GetAngles
+Signature:   Vector CBaseEntity::GetAngles()
+Description: Get entity pitch, yaw, roll as a vector
+
+Function:    CBaseEntity::GetAngularVelocity
+Signature:   Vector CBaseEntity::GetAngularVelocity()
+Description: Get the local angular velocity - returns a vector of pitch,yaw,roll
+
+Function:    CBaseEntity::GetBoundingMaxs
+Signature:   Vector CBaseEntity::GetBoundingMaxs()
+Description: Get a vector containing max bounds, centered on object
+
+Function:    CBaseEntity::GetBoundingMaxsOriented
+Signature:   Vector CBaseEntity::GetBoundingMaxsOriented()
+Description: Get a vector containing max bounds, centered on object, taking the object's orientation into account
+
+Function:    CBaseEntity::GetBoundingMins
+Signature:   Vector CBaseEntity::GetBoundingMins()
+Description: Get a vector containing min bounds, centered on object
+
+Function:    CBaseEntity::GetBoundingMinsOriented
+Signature:   Vector CBaseEntity::GetBoundingMinsOriented()
+Description: Get a vector containing min bounds, centered on object, taking the object's orientation into account
+
+Function:    CBaseEntity::GetCenter
+Signature:   Vector CBaseEntity::GetCenter()
+Description: Get vector to center of object - absolute coords
+
+Function:    CBaseEntity::GetClassname
+Signature:   string CBaseEntity::GetClassname()
+
+Function:    CBaseEntity::GetForwardVector
+Signature:   Vector CBaseEntity::GetForwardVector()
+Description: Get the forward vector of the entity
+
+Function:    CBaseEntity::GetHealth
+Signature:   int CBaseEntity::GetHealth()
+
+Function:    CBaseEntity::GetLeftVector
+Signature:   Vector CBaseEntity::GetLeftVector()
+Description: Get the left vector of the entity
+
+Function:    CBaseEntity::GetMaxHealth
+Signature:   int CBaseEntity::GetMaxHealth()
+
+Function:    CBaseEntity::GetModelKeyValues
+Signature:   handle CBaseEntity::GetModelKeyValues()
+Description: Get a KeyValue class instance on this entity's model
+
+Function:    CBaseEntity::GetModelName
+Signature:   string CBaseEntity::GetModelName()
+Description: Returns the name of the model
+
+Function:    CBaseEntity::GetMoveParent
+Signature:   handle CBaseEntity::GetMoveParent()
+Description: If in hierarchy, retrieves the entity's parent
+
+Function:    CBaseEntity::GetName
+Signature:   string CBaseEntity::GetName()
+
+Function:    CBaseEntity::GetOrigin
+Signature:   Vector CBaseEntity::GetOrigin()
+
+Function:    CBaseEntity::GetOwner
+Signature:   handle CBaseEntity::GetOwner()
+Description: Gets this entity's owner
+
+Function:    CBaseEntity::GetPreTemplateName
+Signature:   string CBaseEntity::GetPreTemplateName()
+Description: Get the entity name stripped of template unique decoration
+
+Function:    CBaseEntity::GetRootMoveParent
+Signature:   handle CBaseEntity::GetRootMoveParent()
+Description: If in hierarchy, walks up the hierarchy to find the root parent
+
+Function:    CBaseEntity::GetScriptId
+Signature:   string CBaseEntity::GetScriptId()
+Description: Retrieve the unique identifier used to refer to the entity within the scripting system
+
+Function:    CBaseEntity::GetScriptScope
+Signature:   handle CBaseEntity::GetScriptScope()
+Description: Retrieve the script-side data associated with an entity
+
+Function:    CBaseEntity::GetSoundDuration
+Signature:   float CBaseEntity::GetSoundDuration(string, string)
+Description: Returns float duration of the sound. Takes soundname and optional actormodelname.
+
+Function:    CBaseEntity::GetTeam
+Signature:   int CBaseEntity::GetTeam()
+
+Function:    CBaseEntity::GetUpVector
+Signature:   Vector CBaseEntity::GetUpVector()
+Description: Get the up vector of the entity
+
+Function:    CBaseEntity::GetVelocity
+Signature:   Vector CBaseEntity::GetVelocity()
+
+Function:    CBaseEntity::NextMovePeer
+Signature:   handle CBaseEntity::NextMovePeer()
+
+Function:    CBaseEntity::PrecacheModel
+Signature:   void CBaseEntity::PrecacheModel(string)
+
+Function:    CBaseEntity::PrecacheScriptSound
+Signature:   void CBaseEntity::PrecacheScriptSound(string)
+
+Function:    CBaseEntity::PrecacheSoundScript
+Signature:   void CBaseEntity::PrecacheSoundScript(string)
+Description: Precache a sound for later playing.
+
+Function:    CBaseEntity::SetAbsOrigin
+Signature:   void CBaseEntity::SetAbsOrigin(Vector)
+Description: SetAbsOrigin
+
+Function:    CBaseEntity::SetAngles
+Signature:   void CBaseEntity::SetAngles(float, float, float)
+Description: Set entity pitch, yaw, roll
+
+Function:    CBaseEntity::SetAngularVelocity
+Signature:   void CBaseEntity::SetAngularVelocity(float, float, float)
+Description: Set the local angular velocity - takes float pitch,yaw,roll velocities
+
+Function:    CBaseEntity::SetForwardVector
+Signature:   void CBaseEntity::SetForwardVector(Vector)
+Description: Set the orientation of the entity to have this forward vector
+
+Function:    CBaseEntity::SetHealth
+Signature:   void CBaseEntity::SetHealth(int)
+
+Function:    CBaseEntity::SetMaxHealth
+Signature:   void CBaseEntity::SetMaxHealth(int)
+
+Function:    CBaseEntity::SetModel
+Signature:   void CBaseEntity::SetModel(string)
+
+Function:    CBaseEntity::SetOrigin
+Signature:   void CBaseEntity::SetOrigin(Vector)
+
+Function:    CBaseEntity::SetOwner
+Signature:   void CBaseEntity::SetOwner(handle)
+Description: Sets this entity's owner
+
+Function:    CBaseEntity::SetSize
+Signature:   void CBaseEntity::SetSize(Vector, Vector)
+
+Function:    CBaseEntity::SetTeam
+Signature:   void CBaseEntity::SetTeam(int)
+
+Function:    CBaseEntity::SetVelocity
+Signature:   void CBaseEntity::SetVelocity(Vector)
+
+Function:    CBaseEntity::StopSound
+Signature:   void CBaseEntity::StopSound(string)
+Description: Stops a sound on this entity.
+
+Function:    CBaseEntity::ValidateScriptScope
+Signature:   bool CBaseEntity::ValidateScriptScope()
+Description: Ensure that an entity's script scope has been created
+
+Function:    CBaseEntity::entindex
+Signature:   int CBaseEntity::entindex()
+
+Function:    CBaseFlex::GetCurrentScene
+Signature:   handle CBaseFlex::GetCurrentScene()
+Description: Returns the instance of the oldest active scene entity (if any).
+
+Function:    CBaseFlex::GetSceneByIndex
+Signature:   handle CBaseFlex::GetSceneByIndex(int)
+Description: Returns the instance of the scene entity at the specified index.
+
+Function:    CBasePlayer::IsNoclipping
+Signature:   bool CBasePlayer::IsNoclipping()
+Description: Returns true if the player is in noclip mode.
+
+Function:    CEntities::CreateByClassname
+Signature:   handle CEntities::CreateByClassname(string)
+Description: Creates an entity by classname
+
+Function:    CEntities::FindByClassname
+Signature:   handle CEntities::FindByClassname(handle, string)
+Description: Find entities by class name. Pass 'null' to start an iteration, or reference to a previously found entity to continue a search
+
+Function:    CEntities::FindByClassnameNearest
+Signature:   handle CEntities::FindByClassnameNearest(string, Vector, float)
+Description: Find entities by class name nearest to a point.
+
+Function:    CEntities::FindByClassnameWithin
+Signature:   handle CEntities::FindByClassnameWithin(handle, string, Vector, float)
+Description: Find entities by class name within a radius. Pass 'null' to start an iteration, or reference to a previously found entity to continue a search
+
+Function:    CEntities::FindByModel
+Signature:   handle CEntities::FindByModel(handle, string)
+Description: Find entities by model name. Pass 'null' to start an iteration, or reference to a previously found entity to continue a search
+
+Function:    CEntities::FindByName
+Signature:   handle CEntities::FindByName(handle, string)
+Description: Find entities by name. Pass 'null' to start an iteration, or reference to a previously found entity to continue a search
+
+Function:    CEntities::FindByNameNearest
+Signature:   handle CEntities::FindByNameNearest(string, Vector, float)
+Description: Find entities by name nearest to a point.
+
+Function:    CEntities::FindByNameWithin
+Signature:   handle CEntities::FindByNameWithin(handle, string, Vector, float)
+Description: Find entities by name within a radius. Pass 'null' to start an iteration, or reference to a previously found entity to continue a search
+
+Function:    CEntities::FindByTarget
+Signature:   handle CEntities::FindByTarget(handle, string)
+Description: Find entities by targetname. Pass 'null' to start an iteration, or reference to a previously found entity to continue a search
+
+Function:    CEntities::FindInSphere
+Signature:   handle CEntities::FindInSphere(handle, Vector, float)
+Description: Find entities within a radius. Pass 'null' to start an iteration, or reference to a previously found entity to continue a search
+
+Function:    CEntities::First
+Signature:   handle CEntities::First()
+Description: Begin an iteration over the list of entities
+
+Function:    CEntities::Next
+Signature:   handle CEntities::Next(handle)
+Description: Continue an iteration over the list of entities, providing reference to a previously found entity
+
+Function:    CEnvEntityMaker::SpawnEntity
+Signature:   void CEnvEntityMaker::SpawnEntity()
+Description: Create an entity at the location of the maker
+
+Function:    CEnvEntityMaker::SpawnEntityAtEntityOrigin
+Signature:   void CEnvEntityMaker::SpawnEntityAtEntityOrigin(handle)
+Description: Create an entity at the location of a specified entity instance
+
+Function:    CEnvEntityMaker::SpawnEntityAtLocation
+Signature:   void CEnvEntityMaker::SpawnEntityAtLocation(Vector, Vector)
+Description: Create an entity at a specified location and orientaton, orientation is Euler angle in degrees (pitch, yaw, roll)
+
+Function:    CEnvEntityMaker::SpawnEntityAtNamedEntityOrigin
+Signature:   void CEnvEntityMaker::SpawnEntityAtNamedEntityOrigin(string)
+Description: Create an entity at the location of a named entity
+
+Function:    CFuncTrackTrain::GetFuturePosition
+Signature:   Vector CFuncTrackTrain::GetFuturePosition(float, float)
+Description: Get a position on the track x seconds in the future
+
+Function:    CGameCoopMissionManager::GetWaveNumber
+Signature:   int CGameCoopMissionManager::GetWaveNumber()
+Description: Get the number of waves the players have completed
+
+Function:    CHostage::IsBeingCarried
+Signature:   bool CHostage::IsBeingCarried()
+Description: Get whether the hostage is currently being carried or not
+
+Function:    CPlayerVoiceListener::GetPlayerSpeechDuration
+Signature:   float CPlayerVoiceListener::GetPlayerSpeechDuration(int)
+Description: Returns the number of seconds the player has been continuously speaking.
+
+Function:    CPlayerVoiceListener::IsPlayerSpeaking
+Signature:   bool CPlayerVoiceListener::IsPlayerSpeaking(int)
+Description: Returns whether the player specified is speaking.
+
+Function:    CSceneEntity::AddBroadcastTeamTarget
+Signature:   void CSceneEntity::AddBroadcastTeamTarget(int)
+Description: Adds a team (by index) to the broadcast list
+
+Function:    CSceneEntity::EstimateLength
+Signature:   float CSceneEntity::EstimateLength()
+Description: Returns length of this scene in seconds.
+
+Function:    CSceneEntity::FindNamedEntity
+Signature:   handle CSceneEntity::FindNamedEntity(string)
+Description: given an entity reference, such as !target, get actual entity from scene object
+
+Function:    CSceneEntity::IsPaused
+Signature:   bool CSceneEntity::IsPaused()
+Description: If this scene is currently paused.
+
+Function:    CSceneEntity::IsPlayingBack
+Signature:   bool CSceneEntity::IsPlayingBack()
+Description: If this scene is currently playing.
+
+Function:    CSceneEntity::LoadSceneFromString
+Signature:   bool CSceneEntity::LoadSceneFromString(string, string)
+Description: given a dummy scene name and a vcd string, load the scene
+
+Function:    CSceneEntity::RemoveBroadcastTeamTarget
+Signature:   void CSceneEntity::RemoveBroadcastTeamTarget(int)
+Description: Removes a team (by index) from the broadcast list
+
+Function:    CScriptKeyValues::FindKey
+Signature:   handle CScriptKeyValues::FindKey(string)
+Description: Given a KeyValues object and a key name, find a KeyValues object associated with the key name
+
+Function:    CScriptKeyValues::GetFirstSubKey
+Signature:   handle CScriptKeyValues::GetFirstSubKey()
+Description: Given a KeyValues object, return the first sub key object
+
+Function:    CScriptKeyValues::GetKeyBool
+Signature:   bool CScriptKeyValues::GetKeyBool(string)
+Description: Given a KeyValues object and a key name, return associated bool value
+
+Function:    CScriptKeyValues::GetKeyFloat
+Signature:   float CScriptKeyValues::GetKeyFloat(string)
+Description: Given a KeyValues object and a key name, return associated float value
+
+Function:    CScriptKeyValues::GetKeyInt
+Signature:   int CScriptKeyValues::GetKeyInt(string)
+Description: Given a KeyValues object and a key name, return associated integer value
+
+Function:    CScriptKeyValues::GetKeyString
+Signature:   string CScriptKeyValues::GetKeyString(string)
+Description: Given a KeyValues object and a key name, return associated string value
+
+Function:    CScriptKeyValues::GetNextKey
+Signature:   handle CScriptKeyValues::GetNextKey()
+Description: Given a KeyValues object, return the next key object in a sub key group
+
+Function:    CScriptKeyValues::IsKeyEmpty
+Signature:   bool CScriptKeyValues::IsKeyEmpty(string)
+Description: Given a KeyValues object and a key name, return true if key name has no value
+
+Function:    CScriptKeyValues::ReleaseKeyValues
+Signature:   void CScriptKeyValues::ReleaseKeyValues()
+Description: Given a root KeyValues object, release its contents
+
+Function:    CTriggerCamera::GetFov
+Signature:   int CTriggerCamera::GetFov()
+Description: get camera's current fov setting as integer
+
+Function:    CTriggerCamera::SetFov
+Signature:   void CTriggerCamera::SetFov(int, float)
+Description: set camera's current fov in integer degrees and fov change rate as float
+
+Function:    CreateProp
+Signature:   handle CreateProp(string, Vector, string, int)
+Description: Create a physics prop
+
+Function:    CreateSceneEntity
+Signature:   handle CreateSceneEntity(string)
+Description: Create a scene entity to play the specified scene.
+
+Function:    DebugDrawBox
+Signature:   void DebugDrawBox(Vector, Vector, Vector, int, int, int, int, float)
+Description: Draw a debug overlay box
+
+Function:    DebugDrawBoxAngles
+Signature:   void DebugDrawBoxAngles(Vector, Vector, Vector, Vector, int, int, int, int, float)
+Description: Draw a debug overlay box with angles
+
+Function:    DebugDrawLine
+Signature:   void DebugDrawLine(Vector, Vector, int, int, int, bool, float)
+Description: Draw a debug overlay box
+
+Function:    DispatchParticleEffect
+Signature:   void DispatchParticleEffect(string, Vector, Vector)
+Description: Dispatches a one-off particle system
+
+Function:    DoIncludeScript
+Signature:   bool DoIncludeScript(string, handle)
+Description: Execute a script (internal)
+
+Function:    EntFire
+Signature:   function EntFire(target, action, value, delay, activator)
+Description: Generate and entity i/o event
+
+Function:    EntFireByHandle
+Signature:   void EntFireByHandle(handle, string, string, float, handle, handle)
+Description: Generate and entity i/o event. First parameter is an entity instance.
+
+Function:    FrameTime
+Signature:   float FrameTime()
+Description: Get the time spent on the server in the last frame
+
+Function:    GetDeveloperLevel
+Signature:   int GetDeveloperLevel()
+Description: Gets the level of 'developer'
+
+Function:    GetMapName
+Signature:   string GetMapName()
+Description: Get the name of the map.
+
+Function:    LoopSinglePlayerMaps
+Signature:   bool LoopSinglePlayerMaps()
+Description: Run the single player maps in a continuous loop.
+
+Function:    RandomFloat
+Signature:   float RandomFloat(float, float)
+Description: Generate a random floating point number within a range, inclusive
+
+Function:    RandomInt
+Signature:   int RandomInt(int, int)
+Description: Generate a random integer within a range, inclusive
+
+Function:    RecordAchievementEvent
+Signature:   void RecordAchievementEvent(string, int)
+Description: Records achievement event or progress
+
+Function:    ScriptCoopCollectBonusCoin
+Signature:   void ScriptCoopCollectBonusCoin()
+Description: Marks one of the bonus coins as collected.
+
+Function:    ScriptCoopExtendRoundDurationTime
+Signature:   void ScriptCoopExtendRoundDurationTime(float)
+Description: Extends the round time after checkpoint during the mission.
+
+Function:    ScriptCoopGiveC4sToCTs
+Signature:   void ScriptCoopGiveC4sToCTs(int)
+Description: Will give the number of specified C4s to all alive CT players.
+
+Function:    ScriptCoopMissionGetMissionNumber
+Signature:   int ScriptCoopMissionGetMissionNumber()
+Description: Gets the mission number for the current map - maps can have multiple missions on them.
+
+Function:    ScriptCoopMissionRespawnDeadPlayers
+Signature:   void ScriptCoopMissionRespawnDeadPlayers()
+Description: Respawns players only.
+
+Function:    ScriptCoopMissionSetDeadPlayerRespawnEnabled
+Signature:   void ScriptCoopMissionSetDeadPlayerRespawnEnabled(bool)
+Description: Controls whether player respawns can happen.
+
+Function:    ScriptCoopMissionSetNextRespawnIn
+Signature:   void ScriptCoopMissionSetNextRespawnIn(float, bool)
+Description: Set the next respawn wave to happen in this many seconds.
+
+Function:    ScriptCoopMissionSpawnFirstEnemies
+Signature:   void ScriptCoopMissionSpawnFirstEnemies(int)
+Description: Spawns the first wave of enemies in coop.
+
+Function:    ScriptCoopMissionSpawnNextWave
+Signature:   void ScriptCoopMissionSpawnNextWave(int)
+Description: Tells the next wave of enemies to spawn in coop.  Also respawns player.
+
+Function:    ScriptCoopResetRoundStartTime
+Signature:   void ScriptCoopResetRoundStartTime()
+Description: Resets the round time and starts the mission.
+
+Function:    ScriptCoopSetBotQuotaAndRefreshSpawns
+Signature:   void ScriptCoopSetBotQuotaAndRefreshSpawns(int)
+Description: Sets the bot quota considering the # of players connected and refreshes the spawns.
+
+Function:    ScriptCoopToggleEntityOutlineHighlights
+Signature:   void ScriptCoopToggleEntityOutlineHighlights(bool)
+Description: Highlights all dropped weapons for players, or removes all highlights.
+
+Function:    ScriptGetBestTrainingCourseTime
+Signature:   int ScriptGetBestTrainingCourseTime()
+Description: Gets the player's best time for completing the timed course.
+
+Function:    ScriptGetGameMode
+Signature:   int ScriptGetGameMode()
+Description: Gets the current game mode.
+
+Function:    ScriptGetGameType
+Signature:   int ScriptGetGameType()
+Description: Gets the current game type.
+
+Function:    ScriptGetPlayerCompletedTraining
+Signature:   bool ScriptGetPlayerCompletedTraining()
+Description: Returns true if the player has completed the initial portion of the training map.
+
+Function:    ScriptGetRoundsPlayed
+Signature:   int ScriptGetRoundsPlayed()
+Description: Get the number of rounds played so far.
+
+Function:    ScriptGetValveTrainingCourseTime
+Signature:   int ScriptGetValveTrainingCourseTime()
+Description: Gets Valve's best time for completing the timed course.
+
+Function:    ScriptHighlightAmmoCounter
+Signature:   void ScriptHighlightAmmoCounter()
+Description: Sends an event that is just used by the instructor system to show a hint highlighting the ammo counter.
+
+Function:    ScriptIsLocalPlayerUsingController
+Signature:   bool ScriptIsLocalPlayerUsingController()
+Description: Returns whether the player is playing with a controller or not.
+
+Function:    ScriptIsWarmupPeriod
+Signature:   bool ScriptIsWarmupPeriod()
+Description: Is it warmup or not.
+
+Function:    ScriptLobbyMapVetoFinished
+Signature:   void ScriptLobbyMapVetoFinished(string, bool, bool, string)
+Description: Switch to the selected map after lobby map veto finished.
+
+Function:    ScriptPrintMessageCenterAll
+Signature:   void ScriptPrintMessageCenterAll(string)
+Description: Prints an alert message in the center print method to all players.
+
+Function:    ScriptPrintMessageCenterAllWithParams
+Signature:   void ScriptPrintMessageCenterAllWithParams(string, string, string, string)
+Description: Prints an alert message in the center print method to all players. Needs to pass token/message. param1, param2, param3. Can pass null if you need less than 3.
+
+Function:    ScriptPrintMessageCenterTeam
+Signature:   void ScriptPrintMessageCenterTeam(int, string)
+Description: Prints an alert message in the center print method to the specified team.
+
+Function:    ScriptPrintMessageChatAll
+Signature:   void ScriptPrintMessageChatAll(string)
+Description: Prints a message in chat to all players.
+
+Function:    ScriptPrintMessageChatTeam
+Signature:   void ScriptPrintMessageChatTeam(int, string)
+Description: Prints a message in chat to the specified team.
+
+Function:    ScriptSetBestTrainingCourseTime
+Signature:   void ScriptSetBestTrainingCourseTime(int)
+Description: Sets the player's best time for completing the timed course.
+
+Function:    ScriptSetMiniScoreHidden
+Signature:   void ScriptSetMiniScoreHidden(bool)
+Description: Toggles the visibility of the miniscoreboard hud element.
+
+Function:    ScriptSetPlayerCompletedTraining
+Signature:   void ScriptSetPlayerCompletedTraining(bool)
+Description: Sets whether the player has completed the initial portion of the training map.
+
+Function:    ScriptSetRadarHidden
+Signature:   void ScriptSetRadarHidden(bool)
+Description: Toggles the visibility of the radar hud element.
+
+Function:    ScriptShowExitDoorMsg
+Signature:   void ScriptShowExitDoorMsg()
+Description: Shows a message box in trainign when the player exits through the exit door
+
+Function:    ScriptShowFinishMsgBox
+Signature:   void ScriptShowFinishMsgBox()
+Description: Shows a message box to let players know what to do next after finishing the training course.
+
+Function:    ScriptTrainingGivePlayerAmmo
+Signature:   void ScriptTrainingGivePlayerAmmo()
+Description: Refills ammo to max for all weapons the player has (only works in training).
+
+Function:    SendToConsole
+Signature:   void SendToConsole(string)
+Description: Send a string to the console as a command
+
+Function:    SendToConsoleServer
+Signature:   void SendToConsoleServer(string)
+Description: Send a string that gets executed on the server as a ServerCommand
+
+Function:    ShowMessage
+Signature:   void ShowMessage(string)
+Description: Print a hud message on all clients
+
+Function:    Time
+Signature:   float Time()
+Description: Get the current server time
+
+Function:    TraceLine
+Signature:   float TraceLine(Vector, Vector, handle)
+Description: given 2 points & ent to ignore, return fraction along line that hits world or models
+
+Function:    TraceLinePlayersIncluded
+Signature:   float TraceLinePlayersIncluded(Vector, Vector, handle)
+Description: given 2 points & ent to ignore, return fraction along line that hits world, models, players or npcs
+
+Function:    UniqueString
+Signature:   function UniqueString(string)
+Description: Generate a string guaranteed to be unique across the life of the script VM, with an optional root string. Useful for adding data to tables when not sure what keys are already in use in that table.
